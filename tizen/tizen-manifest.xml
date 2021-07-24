@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.gskinner.flutterfolio" version="1.2.3" api-version="5.5" xmlns="http://tizen.org/ns/packages">
+    <profile name="wearable"/>
+    <ui-application appid="com.gskinner.flutterfolio" exec="Runner.dll" type="dotnet" multiple="false" taskmanage="true" nodisplay="false" api-version="4" launch_mode="single">
+        <label>flutterfolio</label>
+        <icon>ic_launcher.png</icon>
+        <metadata key="http://tizen.org/metadata/prefer_dotnet_aot" value="true"/>
+        <metadata key="http://tizen.org/metadata/direct-launch" value="yes"/>
+    </ui-application>
+    <tv-info api-version="8.8.0">
+        <infolink>T-INFOLINK2021-1000</infolink>
+    </tv-info>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+</manifest>
