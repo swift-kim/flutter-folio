@@ -56,7 +56,7 @@ packages:
       name: async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.5.0"
+    version: "2.6.1"
   auto_size_text:
     dependency: "direct main"
     description:
@@ -570,7 +570,7 @@ packages:
       name: http
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.13.1"
+    version: "0.13.3"
   http2:
     dependency: transitive
     description:
@@ -610,6 +610,13 @@ packages:
     dependency: transitive
     description:
       name: image_picker_platform_interface
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.2.0"
+  image_picker_tizen:
+    dependency: "direct main"
+    description:
+      name: image_picker_tizen
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.0"
@@ -774,6 +781,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.1"
+  path_provider_tizen:
+    dependency: "direct main"
+    description:
+      name: path_provider_tizen
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.0"
   path_provider_windows:
     dependency: transitive
     description:
@@ -872,6 +886,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.1"
+  share_tizen:
+    dependency: "direct main"
+    description:
+      name: share_tizen
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.0"
   shared_preferences:
     dependency: "direct main"
     description:
@@ -897,6 +918,13 @@ packages:
     dependency: transitive
     description:
       name: shared_preferences_platform_interface
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.0"
+  shared_preferences_tizen:
+    dependency: "direct main"
+    description:
+      name: shared_preferences_tizen
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.0"
@@ -1030,7 +1058,7 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.19"
+    version: "0.3.0"
   timeago:
     dependency: "direct main"
     description:
@@ -1087,6 +1115,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.2"
+  url_launcher_tizen:
+    dependency: "direct main"
+    description:
+      name: url_launcher_tizen
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.0"
   url_launcher_web:
     dependency: transitive
     description:
@@ -1166,4 +1201,4 @@ packages:
     version: "3.1.0"
 sdks:
   dart: ">=2.12.0 <3.0.0"
-  flutter: ">=1.24.0-10.2.pre"
+  flutter: ">=2.0.0"

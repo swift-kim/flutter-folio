@@ -38,7 +38,9 @@ class DartFirebaseService extends FirebaseService {
       }
       _isSignedIn = true;
       return AppUser(email: user.email ?? "", fireId: user.id);
-    } catch (e) {}
+    } catch (e) {
+      print(e.toString());
+    }
     return null;
   }
 
